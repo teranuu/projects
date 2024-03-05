@@ -1,0 +1,101 @@
+body {
+
+    background: hsla(154, 53%, 82%, 1);
+
+    background: linear-gradient(90deg, hsla(154, 53%, 82%, 1) 0%, hsla(24, 88%, 65%, 1) 100%);
+    
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#b8e9d4", endColorstr="#f4985a", GradientType=1 );
+    
+}
+.title-nav, .contact-nav, .content-nav{
+
+    font-family: Cardium A;
+    font-size: 18px;
+    display:inline-block;   
+
+}
+.nav-menu{
+
+   margin-top: 30px;
+   border: 1px solid;
+   border-color: black;
+
+}
+
+.title-nav{
+
+    margin-left: 50px;
+    
+}
+
+.main-page {
+
+ 
+    display: inline-block;
+    margin-top: 200px
+
+}
+.main-first{
+    
+    margin-left: 30px;
+    margin-top: 90px;
+    margin-bottom: 0;
+    font-family: Cardium A;
+    font-weight: bold;
+    font-size: 65px;
+
+}
+.main-first, .main-second{
+    
+    display: inline-block;
+
+}
+.main-second{
+
+    font-family: Winden Alt W05 Regular;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 250px;
+    margin-top: 0;
+}
+.main-two, .img-1{
+
+
+    display: inline-block;
+
+
+}
+.main-img{
+    margin-left: 0;
+    border: 3px solid;
+    width: 550px;
+}
+
+.main-third{
+    
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 280px;
+    cursor: pointer;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: box-shadow 0.15s;
+    font-family: Winden Alt W05 Regular;
+
+}
+
+.content-link-button{
+
+    text-align: center;
+    
+}
+
+.main-third:hover{
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+}
